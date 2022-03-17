@@ -5,12 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Task1WpfApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="546.345" Width="871.671">
+        Title="MainWindow" Height="491.71" Width="364.351">
     <Grid>
-        <Canvas HorizontalAlignment="Left" Height="461" Margin="473,17,0,0" VerticalAlignment="Top" Width="357" Background="#FF322626"/>
 
-        <Border BorderBrush="#FF1F419C" BorderThickness="5" HorizontalAlignment="Left" Height="461" Margin="473,17,0,0" VerticalAlignment="Top" Width="357" Background="#FF393B42"/>
-        <Grid HorizontalAlignment="Left" Height="399" Margin="485,68,0,0" VerticalAlignment="Top" Width="333">
+        <Border BorderBrush="#FF1F419C" BorderThickness="5" HorizontalAlignment="Left" Height="461" VerticalAlignment="Top" Width="357" Background="#FF393B42"/>
+        <Grid HorizontalAlignment="Left" Height="399" Margin="10,47,0,0" VerticalAlignment="Top" Width="333">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="118*"/>
                 <ColumnDefinition Width="215*"/>
@@ -39,7 +38,7 @@
             <Button Content="=" HorizontalAlignment="Left" Margin="42.584,321,0,0" VerticalAlignment="Top" Width="66" Height="58" RenderTransformOrigin="0.029,0.035" FontSize="30" Grid.Column="1"/>
             <Button Content="/" HorizontalAlignment="Left" Margin="133.584,321,0,0" VerticalAlignment="Top" Width="66" Height="58" RenderTransformOrigin="0.029,0.035" FontSize="30" Grid.Column="1"/>
         </Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="508,31,0,0" TextWrapping="Wrap" Text="Калькулятор" VerticalAlignment="Top" FontSize="24" Foreground="#FFF5EDED" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="31,10,0,0" TextWrapping="Wrap" Text="Калькулятор" VerticalAlignment="Top" FontSize="24" Foreground="#FFF5EDED" FontWeight="Bold"/>
 
     </Grid>
 </Window>
